@@ -13,7 +13,7 @@ session_start();
 <body>
 
     <p>
-        <h1>Accessories are on their way! Stay tuned.</h1>
+        <h1>Page Coming Soon!</h1>
         <h3>Back to <a href="index.php">Home</a></h3>
     </p>
     

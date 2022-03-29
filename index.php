@@ -2,6 +2,7 @@
 session_start();
 $_SESSION['signupErr'] = array();
 $_SESSION['loginErr'] = array();
+// echo "<pre>" . print_r($_COOKIE,1) . "</pre>";
 
 ?>
 
@@ -11,7 +12,7 @@ $_SESSION['loginErr'] = array();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elshafei Wear and Tear</title>
+    <title>Elsh Wear & Tear</title>
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="icon" sizes="57x57" href="Images/logo.png" />
 </head>
@@ -82,22 +83,31 @@ $_SESSION['loginErr'] = array();
     </div>
 
     <section>
-        <H1><q>Elshafei Wears and Tears!</q></H1>
-        <p>
-            Elshafei Wears and tears full description</p>
+        <H1><q>Welcome to Elsh Wear & Tear, your best source for mens and womens denim wear and accessories !</q></H1>
 
         <div class="mainSection">
             <div class="leftSection">
                 <img src="/Images/user2.png" alt="user2" class="users">
                 <p>
-                    User review #1 to be put here
+                    <!-- The moment I recieved my large denim jacket, I could tell instantly that the quality was top of the line!
+                    I would recommend these jackets and products to anyone who is interested. -->
+                    The pain itself is pain, it loves the main adipisicing process. No pain was born among them, but in 
+                    the enduring of the great services, the main purpose of these events was not to be unencumbered. 
+                    Resilience takes on all pain, but it will come when it seeks to catch him with debts; Hard work, 
+                    obstacles, choice as we accuse the wise man of pleasure, but that indulgence often escapes; We deem 
+                    the very annoyances which must be avoided, those who are right to welcome him, for those whom we praise 
+                    should be rejected by any one of us with greater sorrows! 
                 </p>
             </div>
 
             <div class="rightSection">
                 <img src="/Images/user1.png" alt="user1" class="users">
-                <p>User review #2 to be put here!
-                </p>
+                <p>The pain itself is pain, it loves the main adipisicing process. No pain was born among them, but in 
+                    the enduring of the great services, the main purpose of these events was not to be unencumbered. 
+                    Resilience takes on all pain, but it will come when it seeks to catch him with debts; Hard work, 
+                    obstacles, choice as we accuse the wise man of pleasure, but that indulgence often escapes; We deem 
+                    the very annoyances which must be avoided, those who are right to welcome him, for those whom we praise 
+                    should be rejected by any one of us with greater sorrows! 
             </div>
         </div>
 
