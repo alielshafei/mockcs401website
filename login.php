@@ -71,7 +71,7 @@ if(count($_COOKIE)>1){
                 </li>
             </ul>
         </form>
-        Dont have an account?<a href="signUp.php">Create Account</a>
+        <!-- Dont have an account? --> <a href="signUp.php">Create Account</a>
         <a href="index.php">Home</a>
 
         <div class="message">
